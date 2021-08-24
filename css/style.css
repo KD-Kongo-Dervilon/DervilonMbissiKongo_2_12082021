@@ -477,7 +477,7 @@ body {
 /************ Section *********/
 
 .section {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .section__header {
@@ -535,7 +535,7 @@ body {
 }
 
 .section__display-more {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
