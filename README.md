@@ -14,4 +14,4 @@ Liste de tous les languages utilisés pour la création du site :
 
 Lien du projet : 
 
-https://kd-kongo-dervilon.github.io/MbissiDervilon_02_12082021/
+https://kd-kongo-dervilon.github.io/DervilonMbissiKongo_2_12082021/
