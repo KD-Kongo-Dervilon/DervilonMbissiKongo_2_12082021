@@ -263,6 +263,12 @@ body {
     font-size: 1.1rem;
 }
 
+.searchbar__icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f3c5";
+    font-weight: 900;
+}
+
 .info__icon:hover {
     background: var(--color-blue);
     color: var(--color-White-f1);
@@ -287,22 +293,6 @@ body {
     color: var(--color-black);
 }
 
-.searchbar__reset {
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-    color: var(--color-blue);
-    height: 100%;
-    padding: 0 1rem;
-    font-size: 1.1rem;
-    display: none;
-    cursor: pointer;
-}
-
-.searchbar:hover > .searchbar__reset{
-    display: flex;
-}
-
 .searchbar__submit {
     flex: 0 0;
     height: 100%;
@@ -311,6 +301,12 @@ body {
     color: var(--color-White-f1);
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+.searchbar__submit::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+    font-weight: 900;
 }
 
 .searchbar__submit:hover{
@@ -329,13 +325,16 @@ body {
     .searchbar__submit span {
         display: none;
     }
+    
 }
 
 /**** Tablette et + *****/
 
 @media screen and (min-width: 576px){
-    .searchbar__submit .searchbar__submit-icon {
-        display: none;
+    .searchbar__submit::before {
+        font-family: "Font Awesome 5 Free";
+        content: "";
+        font-weight: 900;
     }
 }
 
@@ -385,6 +384,30 @@ body {
     font-size: 1.2rem;
 }
 
+.filter__icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f53a";
+    font-weight: 900;
+}
+
+.filter__icon-two::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1ae";
+    font-weight: 900;
+}
+
+.filter__icon-three::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f004";
+    font-weight: 900;
+}
+
+.filter__icon-four::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f6d3";
+    font-weight: 900;
+}
+
 .filter__name {
     font-size: 1.1rem;
     font-weight: bold;
@@ -408,6 +431,12 @@ body {
     border-radius: 50%;
     font-size: .8rem;
     color: var(--color-blue);
+}
+
+.info__icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f129";
+    font-weight: 900;
 }
 
 /**=========MediaQueries Filter-list__title==========**/
@@ -455,6 +484,20 @@ body {
 .card__rating {
     color: var(--color-blue);
 }
+
+.stars::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f005";
+    font-weight: 900;
+}
+
+.stars:nth-child(5):before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f005";
+    font-weight: 900;
+}
+
+
 
 .card__rating-grey {
     color: var(--color-grey);
@@ -544,6 +587,14 @@ body {
 .section__icon--popular {
     font-size: 1.5rem;
 }
+
+.section__icon--popular::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f201";
+    font-weight: 900;
+}
+
+
 
 .section__display-more {
     margin-top: 1rem;
