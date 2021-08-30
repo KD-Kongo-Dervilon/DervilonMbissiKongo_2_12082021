@@ -1,3 +1,7 @@
+/**========== Importation Google font  ===========**/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap');
+
 /**========== Importation locale ===========**/
 
 @font-face {
@@ -200,6 +204,13 @@ body {
         z-index: 1;
         border-top: none;
         border-bottom: 2px solid #0065FC;
+    }
+}
+/**============ Main globale  a 320px ===============**/
+
+@media screen and (max-width: 320px) {
+    .main {
+        padding: 0 1.5rem;
     }
 }
 
@@ -801,5 +812,11 @@ body {
         margin-top: 0rem;
     }
 
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding: 3rem 1.5rem;
+    }
 }
 
