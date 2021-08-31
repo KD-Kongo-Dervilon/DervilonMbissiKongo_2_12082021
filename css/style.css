@@ -39,6 +39,8 @@
 
 html {
     scroll-behavior: smooth;
+    -moz-osx-font-smoothing: smooth;
+    -webkit-font-smoothing: smooth;
 }
 
 a {
@@ -154,12 +156,16 @@ body {
     left: 0;
     border-top: 3px solid var(--color-blue);
     transform: scaleX(0);
+    -webkit-transform: scaleX(0);
     transform-origin: center;
+    -webkit-transform-origin: center;
     transition: 200ms;
+    -webkit-transition: 200ms;
 }
 
 .navbar__link:hover::after {
     transform: scaleX(1);
+    -webkit-transform: scaleX(1);
 }
 
 /**===========MediaQueries Navabar================**/
@@ -366,6 +372,7 @@ body {
 .filter:hover {
     cursor: pointer;
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
     background: var(--color-blue);
     color: var(--color-White-f1);
     box-shadow: 0px 2px 5px var(--color-black);
@@ -459,11 +466,14 @@ body {
     overflow: hidden;
     box-shadow: 0 0 10px var(--color-grey);
     transform: scale(1);
+    -webkit-transform: scale(1);
     transition: .2s;
+    -webkit-transition: .2s;
 }
 
 .card:hover {
     transform: scale(1.05);
+    -webkit-transform: scale(1.05);
 }
 
 .card__img {
@@ -579,6 +589,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     width: 100vw;
     background: var(--color-white-f2);
 }
@@ -688,11 +699,14 @@ body {
     display: flex;
     flex-direction: column;
     transform: scale(1);
+    -webkit-transform: scale(1);
     transition: .2s;
+    -webkit-transition: .2s;
 }
 
 .activity__card:hover {
     transform: scale(1.05);
+    -webkit-transform: scale(1.05);
 }
 
 .activity__card-content {
@@ -824,6 +838,7 @@ body {
     width: 100vw;
     background-color: #F2F2F2;
     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
 }
 
 .footer__section {
